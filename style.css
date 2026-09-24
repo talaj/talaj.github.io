@@ -88,19 +88,13 @@ a { color: var(--accent); }
 .section-lead { font-size: 1.1rem; color: var(--ink-soft); max-width: 46em; }
 
 .cards { list-style: none; padding: 0; margin: 32px 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.cards-3 { grid-template-columns: repeat(3, 1fr); }
+.cards-2 { grid-template-columns: repeat(2, 1fr); }
+.subhead { font-size: 1.3rem; margin-top: 8px; }
 .card { background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; border-top: 4px solid var(--accent); }
 .card p { margin: 0; color: var(--ink-soft); font-size: .97rem; }
 .note { background: var(--accent-soft); border-left: 4px solid var(--accent); padding: 14px 18px; border-radius: 6px; max-width: 52em; }
 
-.services { display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; }
-.checklist { list-style: none; padding: 0; margin: 0; }
-.checklist li { position: relative; padding: 10px 0 10px 32px; border-bottom: 1px solid var(--line); }
-.checklist li::before {
-  content: ""; position: absolute; left: 4px; top: 17px;
-  width: 14px; height: 8px;
-  border-left: 3px solid var(--accent); border-bottom: 3px solid var(--accent);
-  transform: rotate(-45deg);
-}
 .small { font-size: .93rem; color: var(--ink-soft); margin-top: 20px; }
 
 .steps { list-style: none; padding: 0; margin: 32px 0 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; counter-reset: step; }
@@ -144,13 +138,14 @@ a { color: var(--accent); }
   .hero-inner, .contact-inner { grid-template-columns: 1fr; }
   .hero-art { max-width: 360px; }
   .cards, .steps { grid-template-columns: 1fr 1fr; }
+  .cards-3, .cards-2 { grid-template-columns: 1fr; }
   .nav a:not(.btn) { display: none; }
 }
 @media (max-width: 560px) {
   body { font-size: 16px; }
   .hero { padding: 40px 0 32px; }
   .section { padding: 52px 0; }
-  .cards, .steps, .services { grid-template-columns: 1fr; }
+  .cards, .steps { grid-template-columns: 1fr; }
   .hero-cta .btn { width: 100%; text-align: center; }
   .contact-list li { grid-template-columns: 1fr; gap: 0; }
 }
