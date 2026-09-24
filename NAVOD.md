@@ -5,10 +5,8 @@ V `index.html` nahraďte zástupné texty (hledejte je přes Ctrl+F):
 
 | Hledat | Nahradit za |
 |---|---|
-| `+420 000 000 000` a `+420000000000` | váš telefon (druhý tvar je pro odkaz `tel:`, bez mezer) |
-| `info@dilnamiru.cz` | váš e-mail |
 | `JMÉNO PŘÍJMENÍ`, `IČO: 00000000` | údaje z živnostenského listu (na webu je musíte uvést) |
-| `XXX Kč`, `X Kč / km`, `do XX km` | vaše ceny a dojezd |
+| ceník | zkontrolujte, že navržené ceny odpovídají vašim nákladům |
 | `https://www.dilnamiru.cz/` | skutečná doména (také v `robots.txt` a `sitemap.xml`) |
 
 Zkontrolujte také odpovědi v sekci „Časté dotazy“. Je tam třeba slib, že prasklý díl vytisknete znovu zdarma.
