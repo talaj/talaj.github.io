@@ -5,7 +5,6 @@ V `index.html` nahraďte zástupné texty (hledejte je přes Ctrl+F):
 
 | Hledat | Nahradit za |
 |---|---|
-| `JMÉNO PŘÍJMENÍ`, `IČO: 00000000` | údaje z živnostenského listu (na webu je musíte uvést) |
 | ceník | zkontrolujte, že navržené ceny odpovídají vašim nákladům |
 | `https://www.dilnamiru.cz/` | skutečná doména (také v `robots.txt` a `sitemap.xml`) |
 
