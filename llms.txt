@@ -42,6 +42,7 @@ Provoz: nonstop · výjezd Praha a okolí do 50 km
 ## Odkazy
 
 - [Úvod](https://www.dilnamiru.cz/)
+- [Ukázka](https://www.dilnamiru.cz/#ukazka)
 - [Co opravím](https://www.dilnamiru.cz/#co-opravim)
 - [Služby](https://www.dilnamiru.cz/#sluzby)
 - [Ceník](https://www.dilnamiru.cz/#cenik)
