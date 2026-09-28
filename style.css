@@ -103,18 +103,17 @@ a { color: var(--accent); }
   margin: 32px 0 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  counter-reset: showcase;
+  gap: 24px;
+  align-items: start;
 }
 .showcase li { min-width: 0; }
 .showcase figure { margin: 0; }
 .showcase img {
   width: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: var(--radius);
+  height: auto;
   display: block;
-  background: #ddd;
+  border-radius: var(--radius);
+  background: #e8e4dc;
 }
 .showcase figcaption { margin-top: 14px; }
 .showcase-step {
