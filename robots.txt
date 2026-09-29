@@ -1,7 +1,9 @@
 User-agent: *
 Allow: /
 
-# AI crawlers – obsah webu smí být použit pro odpovědi a citace
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
