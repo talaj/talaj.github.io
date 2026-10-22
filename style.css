@@ -284,3 +284,23 @@ a { color: var(--accent); }
   .hero-cta .btn { width: 100%; text-align: center; }
   .contact-list li { grid-template-columns: 1fr; gap: 0; }
 }
+
+/* Car accessories promotion */
+.auto-promo { padding: 32px 0; background: var(--accent-soft); border-block: 1px solid var(--line); }
+.auto-promo-inner { display: flex; align-items: center; gap: 32px; }
+.auto-photo { margin: 28px 0; }
+.auto-photo img { display: block; width: 100%; height: auto; border-radius: var(--radius); }
+.auto-photo figcaption { margin-top: 8px; font-size: .8rem; line-height: 1.5; color: var(--ink-soft); }
+.auto-photo figcaption a { color: inherit; text-decoration: underline; }
+.auto-promo .auto-photo { flex: 0 1 42%; min-width: 0; margin: 0; }
+.auto-promo-inner > div { flex: 1; min-width: 0; }
+.auto-promo h2 { font-size: clamp(1.4rem, 3vw, 1.9rem); }
+.auto-promo p:last-child { margin-bottom: 0; }
+.auto-promo .btn { flex-shrink: 0; }
+@media (max-width: 900px) {
+  .auto-promo-inner { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .auto-promo .auto-photo { width: 100%; max-width: 640px; flex-basis: auto; }
+}
+@media (max-width: 560px) {
+  .auto-promo .btn { width: 100%; text-align: center; }
+}

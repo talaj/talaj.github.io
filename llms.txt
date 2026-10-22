@@ -9,6 +9,9 @@ Provoz: nonstop · výjezd Praha a okolí do 50 km
 
 ## Služby
 
+- Zakázkový návrh a tisk vlastních doplňků pro všechny značky aut; převzaté modely pouze s povoleným komerčním použitím
+- Rada k přípravě oficiálních modelů Škoda pro vlastní nekomerční tisk; bez nabídky jejich prodeje či placených úprav
+
 - Změření a 3D modelování náhradního dílu (i zlomeného nebo neúplného)
 - 3D tisk z PETG, ASA, TPU včetně průsvitných a průhledných materiálů
 - Výměna / montáž dílu na místě (domácnost i firma)
@@ -51,3 +54,4 @@ Provoz: nonstop · výjezd Praha a okolí do 50 km
 - [Opravy nábytku 3D tiskem](https://www.dilnamiru.cz/opravy-nabytku-3d-tiskem/)
 - [Ceník](https://www.dilnamiru.cz/#cenik)
 - [Kontakt](https://www.dilnamiru.cz/#kontakt)
+- [Vlastní doplňky do auta a modely Škoda pro nekomerční tisk](https://www.dilnamiru.cz/3d-tisk-doplnku-skoda/)
